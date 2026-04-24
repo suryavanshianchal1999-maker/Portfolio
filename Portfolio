@@ -1,0 +1,16 @@
+portfolio/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+├── components/
+│   ├── Hero.tsx
+│   ├── ProofBar.tsx
+│   ├── WorkGrid.tsx
+│   ├── CaseStudy.tsx
+│   ├── Services.tsx
+│   ├── About.tsx
+│   ├── Contact.tsx
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
