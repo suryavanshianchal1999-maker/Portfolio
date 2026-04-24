@@ -1,0 +1,12 @@
+export default function ProofBar() {
+  return (
+    <section className="border-y border-white/10 py-8">
+      <div className="container flex justify-between text-center text-sm md:text-lg font-semibold">
+        <span>3× LinkedIn Growth</span>
+        <span>100K+ Impressions</span>
+        <span>1M+ Views</span>
+        <span>7K Organic Growth</span>
+      </div>
+    </section>
+  );
+}
