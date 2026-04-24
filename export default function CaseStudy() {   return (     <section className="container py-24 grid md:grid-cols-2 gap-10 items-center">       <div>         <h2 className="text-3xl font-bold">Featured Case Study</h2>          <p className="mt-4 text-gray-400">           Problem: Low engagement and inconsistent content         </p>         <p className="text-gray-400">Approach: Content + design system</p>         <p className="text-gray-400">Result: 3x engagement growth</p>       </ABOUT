@@ -1,0 +1,15 @@
+export default function About() {
+  return (
+    <section className="container py-24 grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 className="text-3xl font-bold">About Me</h2>
+        <p className="mt-4 text-gray-400">
+          I help brands turn attention into growth through content systems,
+          storytelling, and strategy. I focus on measurable impact over noise.
+        </p>
+      </div>
+
+      <div className="bg-neutral-900 h-80 rounded-xl" />
+    </section>
+  );
+}
