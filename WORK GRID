@@ -1,0 +1,27 @@
+const works = [
+  { title: "Brand Growth Campaign", desc: "3x engagement in 60 days" },
+  { title: "Social Media Strategy", desc: "1M+ views system built" },
+  { title: "Visual Identity", desc: "Premium repositioning" },
+  { title: "Content Engine", desc: "Scalable growth system" }
+];
+
+export default function WorkGrid() {
+  return (
+    <section className="container py-24">
+      <h2 className="text-3xl font-bold mb-10">Selected Work</h2>
+
+      <div className="grid md:grid-cols-2 gap-6">
+        {works.map((w, i) => (
+          <div
+            key={i}
+            className="bg-neutral-900 p-6 rounded-xl hover:scale-[1.02] transition"
+          >
+            <div className="h-40 bg-neutral-800 rounded-lg mb-4" />
+            <h3 className="font-semibold">{w.title}</h3>
+            <p className="text-gray-400 text-sm">{w.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
